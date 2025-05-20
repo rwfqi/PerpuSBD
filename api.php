@@ -4,9 +4,9 @@ session_start();
 header('Content-Type: application/json');
 
 $servername = "localhost";
-$username_db = "root"; // Sesuaikan dengan username database Anda
-$password_db = "";     // Sesuaikan dengan password database Anda
-$dbname = "library_db"; // PASTIKAN SUDAH library_db
+$username_db = "root"; 
+$password_db = "";    
+$dbname = "library_db"; 
 
 // Buat koneksi
 $conn = new mysqli($servername, $username_db, $password_db, $dbname);
