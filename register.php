@@ -6,8 +6,8 @@ $success_message = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $servername = "localhost";
-    $username_db = "root"; // Sesuaikan dengan username database Anda
-    $password_db = "";     // Sesuaikan dengan password database Anda
+    $username_db = "root";
+    $password_db = "";     
     $dbname = "library_db";
 
     $conn = new mysqli($servername, $username_db, $password_db, $dbname);
